@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("../../../assets/images/photos/bg-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#errorID {
+  background: none !important;
+}
+
+.log_in {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15%;
+  gap: 20px;
+}
+.log_in a {
+  margin: auto;
+}
+.log_in a .loginLogo {
+  margin-bottom: 10px;
+}
+.log_in label {
+  padding: 3px 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+.log_in label input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+}
+.log_in #errorID {
+  background: #fff;
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.btn_login {
+  width: 320px;
+  height: 45px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #0D75FF;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn_login:hover {
+  transition: all ease-in-out 0.4s;
+  color: #fff;
+  transform: scale(1.1);
+  background: #0D75FF;
+}
+
+/* Active holati (bosilganda) */
+.btn_login:active {
+  transition: all ease-in-out 0.1s;
+  background-color: #1f8d75;
+  color: #ffffff;
+  transform: scale(0.9);
+}
+
+#Search {
+  width: 80%;
+  height: 95%;
+  color: black;
+}
+
+#Search::-moz-placeholder {
+  color: grey;
+}
+
+#Search::placeholder {
+  color: grey;
+}
+
+#username::-moz-placeholder {
+  color: rgb(140, 164, 184);
+}
+
+#username::placeholder {
+  color: rgb(140, 164, 184);
+}
+
+#password::-moz-placeholder {
+  color: rgb(140, 164, 184);
+}
+
+#password::placeholder {
+  color: rgb(140, 164, 184);
+}
+
+#closeIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.closebtn {
+  border: none;
+  outline: none;
+}
+
+.closebtn:hover {
+  cursor: pointer;
+  border: none !important;
+  outline: none !important;
+}/*# sourceMappingURL=main.css.map */

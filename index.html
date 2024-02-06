@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/sass/main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="login" class="log_in">
+       <a href="https://t.me/regodev" target="_blank">
+         <img
+          class="loginLogo"
+          height="44"
+          width="226"
+          src="./assets/images/photos/logo-name.svg"
+          alt="logo"
+        />
+       </a>
+
+        <label for="username">
+          <img src="./assets/images/photos/user.svg" alt="UserPhoto" />
+          <input id="username" type="text" placeholder="USERNAME" />
+        </label>
+
+        <label for="password">
+          <img src="./assets/images/photos/lock.svg" alt="Lock" />
+
+          <input
+            type="password"
+            name="Password"
+            id="password"
+            placeholder="PASSWORD"
+          />
+
+          <img
+            id="eyeIcon"
+            width="27"
+            height="27"
+            src="./assets/images/icons/eye-icon.svg"
+            alt=""
+          />
+        </label>
+
+        <p id="errorID"></p>
+
+        <button id="loginbtn" class="btn_login">LOGIN</button>
+      </form>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

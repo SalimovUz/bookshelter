@@ -1,0 +1,31 @@
+.btn_login {
+  width: 320px;
+  height: 45px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #0D75FF;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn_login:hover {
+  transition: all ease-in-out 0.4s;
+  color: #fff;
+  transform: scale(1.1);
+  background: #0D75FF;
+}
+
+/* Active holati (bosilganda) */
+.btn_login:active {
+  transition: all ease-in-out 0.1s;
+  background-color: #1f8d75;
+  color: #ffffff;
+  transform: scale(0.9);
+}
